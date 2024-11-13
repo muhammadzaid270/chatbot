@@ -1,3 +1,9 @@
+user_data/
+
+# Ignore model and vectorizer files
+chatbot_model.pkl
+vectorizer.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,4 +1,4 @@
-user_data/
+.devcontainer/
 
 # Ignore model and vectorizer files
 chatbot_model.pkl

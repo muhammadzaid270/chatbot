@@ -1,4 +1,2 @@
-numpy
-pandas
+ntlk
 scikit-learn
-tensorflow

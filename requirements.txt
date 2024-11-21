@@ -1,3 +1,2 @@
 nltk
 scikit-learn
-streamlit

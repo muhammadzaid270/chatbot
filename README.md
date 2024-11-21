@@ -12,7 +12,7 @@ This project is a conversational AI chatbot built using Natural Language Process
 ## **How to Run**
 - Install the required libraries, you can run the following command:
 ```bash
-   pip install streamlit scikit-learn nltk
+   pip install scikit-learn nltk
 ```
 - Clone the repository or download the source code.
 - Navigate to the folder where the script is located.

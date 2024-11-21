@@ -5,7 +5,7 @@ This project is a conversational AI chatbot built using Natural Language Process
 ## Versions
 
 ### 1. **Web-based App (Streamlit)**
-- A web version of the chatbot is available for non-technical users. Simply click [here](https://chatbot-model.streamlit.app/) to interact with the chatbot in your browser.
+- A web version of the chatbot will be available soon to interact with the chatbot in your browser.
 
 ### 2. **Local Desktop App (Tkinter)**
 - This version allows users to run the chatbot locally with a GUI interface using Tkinter. It’s suitable for users who prefer running the model on their own machines.

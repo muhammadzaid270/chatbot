@@ -9,7 +9,7 @@ This project is a conversational AI chatbot built using Natural Language Process
 
 ### 2. **Local Desktop App (Tkinter)**
 - This version allows users to run the chatbot locally with a GUI interface using Tkinter. It’s suitable for users who prefer running the model on their own machines.
-## How to run:
+## **How to Run**
 - Install the required libraries, you can run the following command:
 ```bash
    pip install streamlit scikit-learn nltk

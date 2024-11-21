@@ -4,9 +4,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 import time
-
-# Ensure nltk resources are downloaded
-nltk.download("wordnet")
 from nltk.corpus import wordnet as wn
 
 # Load pre-defined dictionary

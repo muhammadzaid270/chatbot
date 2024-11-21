@@ -124,7 +124,7 @@ def get_best_match(query, keys, vectorizer):
 
 # Learn new information temporarily (using a Streamlit input box)
 def learn_new_information(question):
-    response = st.text_input(f"I don't know the answer to '{question}'. Please provide an answer:")
+    response = st.text_input(f"I don't know the answer to '{question}'. Please provide an answer:", key="learn_input")
     if response:
         temporary_memory[question] = response
         return "Thanks for teaching me! I will remember this until the program ends."
@@ -138,8 +138,8 @@ def create_streamlit_interface():
     # Store the conversation in a list
     conversation = []
 
-    # Get user input
-    user_input = st.text_input("You:", key="user_input")
+    # Get user input with a unique key
+    user_input = st.text_input("You:", key="user_input_1")
 
     if user_input:
         # Append user's input to conversation
@@ -154,7 +154,7 @@ def create_streamlit_interface():
             st.write(message)
 
         # Clear the input field after submission
-        st.text_input("You:", value="", key="user_input")
+        st.text_input("You:", value="", key="user_input_2")
 
 if __name__ == "__main__":
     create_streamlit_interface()

@@ -2,6 +2,8 @@
 
 This project is a conversational AI chatbot built using Natural Language Processing (NLP) techniques and machine learning. It provides automated responses based on user input, capable of learning new information and offering relevant answers.
 
+![Chatbot](screenshot.PNG)
+
 ## Versions
 
 ### 1. **Web-based App (Streamlit)**

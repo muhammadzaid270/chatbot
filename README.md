@@ -10,7 +10,7 @@ This project is a conversational AI chatbot built using Natural Language Process
 - A web version of the chatbot will be available soon to interact with the chatbot in your browser.
 
 ### 2. **Local Desktop App (Tkinter)**
-- This version allows users to run the chatbot locally with a GUI interface using Tkinter. It’s suitable for users who prefer running the model on their own machines.
+- This version allows users to run the chatbot locally with a GUI interface using Tkinter.
 ## **How to Run**
 - Install the required libraries, you can run the following command:
 ```bash
@@ -34,15 +34,13 @@ The chatbot model uses the following techniques:
 
 ### Libraries and Tools Used:
 - **Python** for backend logic.
-- **Streamlit** for creating the web interface.
-- **Tkinter** for the desktop app GUI (not used in the web version).
+- **Tkinter** for the desktop app GUI.
 - **Scikit-learn** for TF-IDF vectorization and cosine similarity.
 - **NLTK** for natural language processing tasks (such as expanding contractions and finding synonyms).
 
 ## Code Explanation (Overview):
 - The chatbot receives user input, processes it by expanding contractions and removing punctuation, and then searches for the best matching response from predefined data.
 - If no match is found, it can "learn" new information by asking the user to provide an answer, storing it temporarily.
-- The Streamlit version creates a simple web interface, while the Tkinter version provides a GUI for local use.
 
 ## Contributing
 
